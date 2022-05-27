@@ -1,0 +1,111 @@
+ 
+/* For desktop */
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+.nav-logo {
+  text-align: left;
+}
+.nav-heading h1 {
+  text-align: right;
+}
+.nav-menu {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.nav-menu a {
+  margin: 20px 0;
+  padding: 5px 10px;
+  font-size: 1rem;
+  background-color: transparent;
+}
+.nav-menu a:hover {
+  background-color: rgba(54, 42, 165, 0.758);
+}
+
+.profile-icon {
+  top: 20px;
+  right: 100px;
+  width: 120px;
+  transition: width 3s, transform 3s;
+}
+.profile .profile-icon:hover {
+  width: 140px;
+}
+.profile-icon2 {
+  bottom: 20px;
+  left: 100px;
+  width: 120px;
+  transition: width 3s, transform 3s;
+}
+.profile .profile-icon:hover {
+  width: 140px;
+}
+.profile-desc p {
+  width: 50%;
+  margin: 10px auto;
+  color: rgb(186, 4, 247);
+  font-size: 1.5rem;
+}
+
+.aboutme-desc {
+  text-align: left;
+}
+.aboutme-img img {
+  height: 400px;
+  width: auto;
+}
+.contact button {
+  width: 150px;
+}
+.contact-links {
+  position: relative;
+}
+.media-btn{
+  position: absolute;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%, -50%);
+ margin-top:200px;
+}
+  .f-menu{
+    margin-top: 20px;
+  }
+ .f-menu a{
+  display: inline;
+ margin: 0px 20px;
+ }
